@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./Navbar.css";
-import a from "./assets/logo.jpeg"; // Update the path if necessary
+import a from "../assets/logo.jpeg"; // Update the path if necessary
 import Home from "./Components/Home";
 import Rooms from "./Components/Rooms";
 import ContactUs from "./Components/Contact";
