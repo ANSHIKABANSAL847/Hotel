@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import { Container, Row, Col, Form, Button, Card} from 'react-bootstrap';
 import { FaUser, FaLock, FaEnvelope } from 'react-icons/fa';
 import { useNavigate } from 'react-router-dom';
-import NavigationBar from "./Navbar";
+
 
 import Footer from "./Footer"
 
@@ -144,7 +144,7 @@ const Login = () => {
   
   return (
     <div>
-        <NavigationBar/>
+       
       <Carbooking1/>
        <Footer/>
       </div>
