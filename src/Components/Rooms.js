@@ -1,6 +1,6 @@
 //import React, { useRef, useState } from "react";
 //import { Container, Row, Col,  Button } from "react-bootstrap";
-import NavigationBar from "./Navbar";
+
 import RoomsSection from "./RoomsSection";
 import HeroSection from "./RoomsHeroSection";
 import RoomAmenities from "./RoomsAnemities";
@@ -9,7 +9,7 @@ import Footer from "./Footer"
 const Rooms = () => {
   return (
     <>
-      <NavigationBar/>
+    
       <HeroSection  />
       <RoomsSection/>
      
