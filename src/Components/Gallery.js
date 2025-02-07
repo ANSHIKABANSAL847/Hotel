@@ -1,7 +1,7 @@
 import slide1 from "../assets/Dining1.jpg";
 import React from "react";
 import { Container, Row, Col, Image, Card } from "react-bootstrap";
-import NavigationBar from "./Navbar";
+
 import ROOM from "../assets/ROOM.jpg";
 import ROOM1 from "../assets/ROOM1.jpg";
 import ROOM2 from "../assets/ROOM2.jpg";
@@ -108,7 +108,7 @@ const HeroSection = () => {
 const Gallery = () => {
   return (
     <>
-      <NavigationBar />
+    
       <HeroSection />
       <Images />
       <style>
