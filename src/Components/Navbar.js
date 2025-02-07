@@ -4,14 +4,14 @@ import { Navbar, Nav, Container } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./Navbar.css";
 import a from "../assets/logo.jpeg"; // Update the path if necessary
-import Home from "./Components/Home";
-import Rooms from "./Components/Rooms";
-import ContactUs from "./Components/Contact";
-import About from "./Components/About";
-import Gallery from "./Components/Gallery";
-import Location from "./Components/Location";
-import Services from "./Components/Services";
-import Login from "./Components/Login";
+import Home from "./Home";
+import Rooms from "./Rooms";
+import ContactUs from "./Contact";
+import About from "./About";
+import Gallery from "./Gallery";
+import Location from "./Location";
+import Services from "./Services";
+import Login from "./Login";
 
 const NavigationBar = () => {
   return (
@@ -76,6 +76,7 @@ const NavigationBar = () => {
 };
 
 export default NavigationBar;
+
 
 
 
