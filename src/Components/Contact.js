@@ -1,4 +1,4 @@
-import NavigationBar from "./Navbar";
+
 import { Container, Row, Col,  Button, Form,Accordion,ListGroup ,Card} from "react-bootstrap";
 import slide1 from "../assets/Deluxe-1.jpg";
 import Footer from "./Footer"
@@ -191,7 +191,7 @@ const faqData = [
 const Contact = () => {
   return (
     <>
-      <NavigationBar/>
+     
       <HeroSection/>
       <ContactForm/>
       <FAQSection/>
