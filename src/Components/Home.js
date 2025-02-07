@@ -4,7 +4,7 @@ import { useEffect } from "react";
 import { Image } from "react-bootstrap";
 
 import "./Home.css";
-import NavigationBar from "./Navbar";
+
 import Carousel from "react-bootstrap/Carousel";
 import Footer from "./Footer";
 import instaLogo from "../assets/insta logo.png"; 
@@ -286,7 +286,7 @@ function FacilitiesSection() {
 const Home = () => {
   return (
     <>
-      <NavigationBar />
+      
       <HeroSection />
       <WelcomeSection />
       
