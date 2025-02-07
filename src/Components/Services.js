@@ -1,5 +1,5 @@
 import React from "react";
-import NavigationBar from "./Navbar";
+
 import Footer from "./Footer";
 import { Container, Row, Col, Card, Button } from 'react-bootstrap';
 //import { Navbar } from "react-bootstrap";
@@ -166,7 +166,7 @@ const MeetingsEventsSection = () => {
 const Services = () => {
     return (
       <>
-        <NavigationBar/>
+        
         <br></br>
         <h2 className="text-center" style={{ fontWeight: "bold", color: "#007bff" }}>
               Meeting & Events at The Gopiraj, Sirsa
