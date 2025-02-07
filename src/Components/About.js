@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col, Card, Button, Carousel } from "react-bootstrap";
 import slide1 from "../assets/front.jpg";
 import slide2 from "../assets/logo.jpg";
-import Navbar from "./Navbar";
+
 import OurValues from "./AboutOurvalues";
 import Footer from "./Footer";
 
@@ -145,7 +145,7 @@ const HotelFeatures = () => {
 const AboutUs = () => {
   return (
     <>
-      <Navbar />
+      
       <HeroSection />
       <AboutSection />
       <HotelFeatures />
