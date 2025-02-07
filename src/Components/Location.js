@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col, Card, ListGroup, Image } from "react-bootstrap";
-import NavigationBar from "./Navbar";
+
 import Footer from "./Footer";
 import a from "../assets/1.jpg";
 
@@ -140,7 +140,7 @@ const Location = () => {
 const Location1 = () => {
   return (
     <>
-      <NavigationBar />
+     
       <Location />
       <Footer />
     </>
